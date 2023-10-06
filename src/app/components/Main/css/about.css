@@ -1,0 +1,9 @@
+
+.about-img{
+    background-image: url('../../../assets/aboutimg.png');
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+  
+}
+

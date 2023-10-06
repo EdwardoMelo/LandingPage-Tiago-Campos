@@ -1,0 +1,16 @@
+
+
+.redes{
+    background-color: rgb(25, 26, 32);
+}   
+.amazon{
+    background-image: url('../../../assets/amazon-img.png');
+    background-position: left top;
+    background-size: cover;
+}
+
+.cac{ 
+    background-image: url("../../../assets//cac.png");
+    background-position: center;
+    background-size: cover;
+}

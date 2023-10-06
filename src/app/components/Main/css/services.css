@@ -1,14 +1,14 @@
 .cards{
     background-repeat: no-repeat;
     font-family: 'Roboto Mono', monospace;
-  }
+  };
   .service-card{
     background-size: cover;
     background-repeat: no-repeat;
-   
-  }
+    
+  };
   .services{
-   background-color: #d1d1d1;
-  }
+    background-image:  linear-gradient(180deg, rgb(33, 33, 59) 20%, rgb(25, 26, 32) 50%);
+  };
   
   
