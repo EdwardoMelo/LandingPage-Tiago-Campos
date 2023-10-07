@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className='flex w-full flex-wrap h-screen'>
       <nav id='navbar' className='header_navbar fixed top-0 z-10 flex justify-around items-center bg-red py-4 md:py-2 w-full'>
-                      <Image src={Navlogo} alt='navlogo' className='invert h-[70px] w-[360px] hidden md:block '/>
+                      <Image src={Navlogo} alt='navlogo' className='invert h-[70px] w-[320px] hidden md:block '/>
                       <Navbar />
       </nav>
 
