@@ -2,8 +2,12 @@
 .about-img{
     background-image: url('../../../assets/aboutimg.png');
     background-position: right;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-  
+}
+.about-content{
+    background-position: bottom;
+    background-position: left ;
+    background-size: contain;
 }
 

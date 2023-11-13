@@ -6,9 +6,9 @@ import Image from 'next/image'
 const Services = () => {
   return (
     <section id='SERVIÇOS' className='services flex flex-col lg:items-center p-2 lg:justify-center  gap-8 py-4 lg:p-4 lg:min-h-[920px] bg-secondary-black'>
-      <h1 className='text-5xl self-center text-white font-sembibold uppercase'>Serviços</h1>
+      <h1 className='text-5xl self-center  font-bold  uppercase text-[#06D59E] '>Serviços</h1>
 
-      <div className='main_services-container flex flex-col gap-8 items-center  lg:flex-row lg:justify-center lg:flex-wrap w-full lg:w-[85%] '>
+      <div className='main_services-container flex flex-col gap-8 items-center  lg:flex-row lg:justify-center lg:flex-wrap w-full lg:w-[100%] '>
           {ServicesList.map((item, index) => (
                 <div className='flex service-card h-[320px] items-center justify-between flex-col shadow-xl  gap-4 text-sm w-[90%] lg:w-[380px] bg-white p-4 rounded-lg lg:rounded-sm' key={index}>
                       <h1 className='text-2xl text-center text-red font-bold drop-shadow-sm'>{item.title}</h1>

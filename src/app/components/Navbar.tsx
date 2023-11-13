@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <>
-      <ul id='links' className='navbar_links  h-[90%] w-1/2 hidden md:flex justify-between font-normal tracking-wide text-white '>
+      <ul id='links' className='navbar_links  h-[90%] w-1/2 hidden md:flex justify-between font-normal tracking-wide text-cyan-50'>
         { NavItems.map(( item, index ) => (
           <li key={index}>
             <Link spy={true} to={item} smooth={true} offset={0} duration={500} className="cursor-pointer">{item}</Link>
