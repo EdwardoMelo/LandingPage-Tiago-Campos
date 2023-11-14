@@ -43,13 +43,13 @@ const About = () => {
       
         <div className='p-4 rounded-lg lg:w-[90%] lg:h-full flex flex-col md:items-center lg:items-start gap-6 '>
 
-            <span className='d lg:w-1/2 md:text-4xl  font-bold text-[#06D59E]  p-4'>Olá 👋 eu sou </span>
+            <span className='d lg:w-1/2 md:text-4xl font-bold text-[#06D59E]  p-4'>Olá 👋 eu sou </span>
 
             <h1 className='title  xl:text-8xl lg:text-6xl  md:text-5xl rounded-bl-lg lg:self-end  text-[#06D59E] text-left font-semibold tracking-normal drop-shadow-md px-4 p-4 '>
               Tiago Campos
             </h1>
 
-            <span className='pub-span self-center text-black font-normal  lg:w-[40%] text-left md:text-lg  xl:text-xl  tracking-normal p-2 lg:self-end lg:translate-x-[-60px] translate-y-[-10px] text-white'>Especialista em<br/> Marketing digital</span>
+            <span className='pub-span self-center  font-normal  lg:w-[40%] text-left md:text-lg  xl:text-xl  tracking-normal p-2 lg:self-end lg:translate-x-[-60px] translate-y-[-10px] text-white'>Especialista em<br/> Marketing digital</span>
 
             <div className='lg:text-[14px] xl:text-md w-full '>
               <p className='text-white'>Atuo na área de negócios ajudando empresas a alcançarem seus objetivos comerciais através de inteligência de mercado. Atuando com ferramentas e metodologias consolidadas no mundo dos negócios, tenho gerado grandes resultados aos clientes que contam com meus serviços.</p>
@@ -66,8 +66,8 @@ const About = () => {
 
 
         <div className='about-img self-end bg-red  w-[95%] h-[50%]  lg:w-1/2 lg:h-[100%] '>
-              <h2 className='translate-y-[50px] text-[22px] font-semibold text-gray-dark md:hidden'>
-                Olá!<br/> Eu Sou <br/><span className='text-black text-4xl'>
+              <h2 className='translate-y-[50px] text-[22px] font-semibold text-[#06D59E] md:hidden'>
+                Olá!<br/> Eu Sou <br/><span className='text-[#06D59E] text-4xl'>
                   Tiago<br/> Campos</span></h2>
         </div>
 
